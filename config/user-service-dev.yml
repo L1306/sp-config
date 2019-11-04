@@ -20,7 +20,13 @@ eureka:
       
       
 management:
-  endpoints:
-    web: 
-      exposure:
-       include: refresh
+    endpoints:  
+      web: 
+        exposure: 
+            include: refresh
+       
+
+
+
+       
+       
