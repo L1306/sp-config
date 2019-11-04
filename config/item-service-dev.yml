@@ -2,6 +2,14 @@ spring:
   application:
     name: item-service
     
+    
+    
+    rabbitmq: 
+      host: 192.168.66.131
+      port: 5672
+      username: admin
+      password: admin
+    
 #server:
 #  port: 8001
 
@@ -27,3 +35,4 @@ spring:
 server:
 
   port: 8002
+  
